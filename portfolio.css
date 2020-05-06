@@ -20,25 +20,37 @@ body {
   }
 
   .menu a.active {
-    background-color: grey;
+    background-color:grey;
     color: white;
     border-radius: 10px;
-    
   }
 
   
   .menu a {
+
     float: left;
     color: grey;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 35px;
     display: flex;
   }
   
   .menu a:hover {
     color: black;
+    
+  }
+
+  p {
+    position: absolute;
+    right: 50%;
+    top: 100px;
+    font-size: 30px;
+    color: grey;
+    font-weight: 200;
+    margin-left: 20px;
+    
     
   }
 
